@@ -22,18 +22,18 @@ And gives out the following outputs:
 * the optimal turn total to roll until
 
 Therefore, the following input command:
-```
+```python
 python3 pig_solver.py 100 22 0
 ```
 
 will give the following output:
-```
+```python
 197 iterations
 0.6940984814532153 19
 ```
 
 Here, the input command is structured as:
-```
+```python
 python3 pig_solver.py T, p1, p2
 ```
 
