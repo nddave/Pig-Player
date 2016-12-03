@@ -12,24 +12,29 @@ Using dynamic programming and randomness, this program computes the most optimal
 
 The program takes in the following inputs:
 
-* T, the score needed to win the game (argv 1)
-* p1, the current score of player 1   (argv 2)
-* p2, the current score of player 2   (argv 3)
+* T, the score needed to win the game
+* p1, the current score of player 1
+* p2, the current score of player 2
 
 And gives out the following outputs:
 
 * wins(∞, p1, p2), the expected number of wins for player 1 when the score is p1 to p2, assuming optimal play
 * the optimal turn total to roll until
 
-Therefore, the following command:
+Therefore, the following input command:
 ```
-python pig_solver.py 100 22 0
+python3 pig_solver.py 100 22 0
 ```
 
 will give the following output:
 ```
 197 iterations
 0.6940984814532153 19
+```
+
+Here, the input command is structured as:
+```
+python3 pig_solver.py T, p1, p2
 ```
 
 # License information ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)
